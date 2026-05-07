@@ -1,0 +1,67 @@
+{
+    "manifest_version": 3,
+    "name": "Sentinel Prime: Email Guard",
+    "version": "0.2.0",
+    "description": "Scans emails for steganography, homoglyph attacks, and malicious URLs via multi-source threat intelligence.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage",
+        "alarms",
+        "notifications"
+    ],
+    "host_permissions": [
+        "https://mail.google.com/*",
+        "https://*.googleusercontent.com/*",
+        "http://localhost:8000/*",
+        "https://safebrowsing.googleapis.com/*",
+        "https://www.virustotal.com/*",
+        "https://urlscan.io/*"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mail.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": [
+                "*://*.google.com/search*",
+                "*://*.bing.com/search*",
+                "*://duckduckgo.com/*",
+                "*://search.yahoo.com/search*",
+                "*://*.ecosia.org/search*",
+                "*://*.startpage.com/sp/search*"
+            ],
+            "js": [
+                "search-guard.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["icons/*"],
+            "matches": ["https://mail.google.com/*"]
+        }
+    ]
+}

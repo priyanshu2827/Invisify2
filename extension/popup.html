@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentinel Prime</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            width: 320px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            color: white;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        .logo {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 8px auto;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+        .logo svg {
+            width: 28px;
+            height: 28px;
+        }
+        h1 {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .subtitle {
+            font-size: 11px;
+            opacity: 0.7;
+            margin-top: 2px;
+            letter-spacing: 0.3px;
+        }
+        .status-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 12px;
+            backdrop-filter: blur(10px);
+        }
+        .status-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            margin: 4px 0;
+        }
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+        }
+        .dot-online { background: #10b981; box-shadow: 0 0 8px #10b981; }
+        .dot-offline { background: #ef4444; }
+        .dot-checking { background: #f59e0b; animation: pulse 1s infinite; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        button {
+            width: 100%;
+            background: #fff;
+            color: #1e40af;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 8px;
+            transition: transform 0.1s;
+            font-size: 13px;
+        }
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .features {
+            margin-top: 12px;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            font-size: 11px;
+        }
+        .feature {
+            padding: 3px 0;
+            opacity: 0.9;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .check-icon {
+            color: #10b981;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 10px;
+            opacity: 0.6;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+        </div>
+        <h1>Sentinel Prime</h1>
+        <div class="subtitle">Email & Web Threat Guard</div>
+    </div>
+
+    <div class="status-card">
+        <div class="status-row">
+            <span><span class="status-dot dot-checking" id="backendDot"></span>Backend API</span>
+            <span id="backendStatus">Checking...</span>
+        </div>
+        <div class="status-row">
+            <span><span class="status-dot dot-online"></span>Email Guard</span>
+            <span>Active</span>
+        </div>
+        <div class="status-row">
+            <span><span class="status-dot dot-online"></span>Search Guard</span>
+            <span>Active</span>
+        </div>
+    </div>
+
+    <button id="checkNow">Open Dashboard</button>
+
+    <div class="features">
+        <div class="feature"><span class="check-icon">&#10003;</span>Steganography detection</div>
+        <div class="feature"><span class="check-icon">&#10003;</span>Homoglyph & IDN protection</div>
+        <div class="feature"><span class="check-icon">&#10003;</span>Search result scanning</div>
+        <div class="feature"><span class="check-icon">&#10003;</span>Phishing URL blocking</div>
+        <div class="feature"><span class="check-icon">&#10003;</span>Real-time threat intel</div>
+    </div>
+
+    <div class="footer">v0.2.0 &middot; Research Edition</div>
+    <script src="popup.js"></script>
+</body>
+</html>

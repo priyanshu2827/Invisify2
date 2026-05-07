@@ -1,0 +1,1663 @@
+{
+  "generatedAt": "2026-04-28T15:03:12.606Z",
+  "baseUrl": "http://localhost:3013",
+  "crawlDurationMs": 733,
+  "crawl": {
+    "pagesCrawled": 13,
+    "internalLinksDiscovered": 12,
+    "brokenInternalLinks": 0
+  },
+  "robots": {
+    "url": "http://localhost:3013/robots.txt",
+    "exists": false,
+    "disallowRules": []
+  },
+  "sitemap": {
+    "url": "http://localhost:3013/sitemap.xml",
+    "exists": false,
+    "status": 404
+  },
+  "issues": {
+    "missingTitle": 0,
+    "missingMetaDescription": 0,
+    "missingCanonical": 12,
+    "pagesMissingH1": 0,
+    "pagesWithMultipleH1": 12,
+    "thinContentPages": 11,
+    "duplicateTitles": true,
+    "duplicateMetaDescriptions": true,
+    "brokenInternalLinks": 0,
+    "redirectChainsOverOneHop": 0,
+    "securityHeaderGaps": 78,
+    "socIndexable": true
+  },
+  "keywordCoverage": 0.5,
+  "keywordTotals": {
+    "steganography detection": 3,
+    "zero-width character detection": 1,
+    "homoglyph attack detection": 0,
+    "unicode security analysis": 0,
+    "emoji steganography": 1,
+    "cybersecurity ai tools": 0
+  },
+  "lsiTotals": {
+    "invisible unicode": 2,
+    "unicode phishing": 0,
+    "zero width characters": 0,
+    "least significant bit steganography": 0,
+    "threat intelligence": 1,
+    "security operations center": 0,
+    "forensic analysis": 2,
+    "payload detection": 0,
+    "ai threat detection": 0
+  },
+  "performance": {
+    "totalHtmlBytes": 364010,
+    "totalJsBytesAcrossPages": 8700806,
+    "avgHtmlBytesPerPage": 30334,
+    "avgJsBytesPerPage": 725067,
+    "totalImages": 0,
+    "imageWithoutDimsCount": 0,
+    "nonLazyImageCount": 0,
+    "nonLazyImagesAboveThreshold": false,
+    "pagesWithManyScripts": 12
+  },
+  "securityHeadersEvaluated": [
+    "content-security-policy",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "referrer-policy",
+    "permissions-policy"
+  ],
+  "brokenLinks": [],
+  "pages": [
+    {
+      "url": "http://localhost:3013/",
+      "finalUrl": "http://localhost:3013/soc",
+      "pathname": "/",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [
+        {
+          "from": "http://localhost:3013/",
+          "to": "http://localhost:3013/soc",
+          "status": 307
+        }
+      ],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"fjqdovdfyry1\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Threat Operations Center"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Threat Operations Center"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/7327-ad22385bd5e62ba2.js",
+        "http://localhost:3013/_next/static/chunks/7398-f803636476b069ea.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/page-d964b86d5f65e883.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 36226,
+      "textWordCount": 118,
+      "keywordHits": {
+        "steganography detection": 1,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/scan",
+      "finalUrl": "http://localhost:3013/scan",
+      "pathname": "/scan",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"e8dzc7o7hcgca\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "Scan - INVISIFY",
+      "metaDescription": "Analyze content for hidden steganography.",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "INVISIFY",
+        "Forensic Scanner"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "INVISIFY"
+        },
+        {
+          "level": 1,
+          "text": "Forensic Scanner"
+        },
+        {
+          "level": 3,
+          "text": "ENGINE_IDLE"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/scan",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/tools",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/detection-methods",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/scan",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/109-9f6912a6261c248b.js",
+        "http://localhost:3013/_next/static/chunks/9285-836b1d7d601ed3d4.js",
+        "http://localhost:3013/_next/static/chunks/9615-2a65679e11372e86.js",
+        "http://localhost:3013/_next/static/chunks/app/scan/page-1fd5f4a017217814.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 21178,
+      "textWordCount": 47,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 1,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/dashboard",
+      "finalUrl": "http://localhost:3013/soc",
+      "pathname": "/dashboard",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [
+        {
+          "from": "http://localhost:3013/dashboard",
+          "to": "http://localhost:3013/soc",
+          "status": 307
+        }
+      ],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"fjqdovdfyry1\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Threat Operations Center"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Threat Operations Center"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/7327-ad22385bd5e62ba2.js",
+        "http://localhost:3013/_next/static/chunks/7398-f803636476b069ea.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/page-d964b86d5f65e883.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 36226,
+      "textWordCount": 118,
+      "keywordHits": {
+        "steganography detection": 1,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/detection-methods",
+      "finalUrl": "http://localhost:3013/detection-methods",
+      "pathname": "/detection-methods",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"zkjw3hxmaulmc\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "Detection Methods - INVISIFY",
+      "metaDescription": "Learn how INVISIFY detects hidden content, steganography, and Unicode-based threats.",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "INVISIFY",
+        "Detection Methods"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "INVISIFY"
+        },
+        {
+          "level": 1,
+          "text": "Detection Methods"
+        },
+        {
+          "level": 3,
+          "text": "Zero-Width Character Analysis"
+        },
+        {
+          "level": 4,
+          "text": "Security Implications"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/scan",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/tools",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/detection-methods",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/scan",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/7791-5c4cd8aaa09f4d97.js",
+        "http://localhost:3013/_next/static/chunks/app/detection-methods/page-a9d1d2465da640c6.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 28020,
+      "textWordCount": 100,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 1,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/tools",
+      "finalUrl": "http://localhost:3013/tools",
+      "pathname": "/tools",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"ny8xazl2hok9x\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "Tools - INVISIFY",
+      "metaDescription": "Use steganography tools like EmojiEncode.",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "INVISIFY",
+        "Forensic Tools"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "INVISIFY"
+        },
+        {
+          "level": 1,
+          "text": "Forensic Tools"
+        },
+        {
+          "level": 3,
+          "text": "EmojiEncoder"
+        },
+        {
+          "level": 3,
+          "text": "EmojiDecoder"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/scan",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/tools",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/detection-methods",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/scan",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/8558-32e311f22860b05d.js",
+        "http://localhost:3013/_next/static/chunks/7791-5c4cd8aaa09f4d97.js",
+        "http://localhost:3013/_next/static/chunks/app/tools/page-a1c2176554bd4dbc.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 26277,
+      "textWordCount": 46,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/soc/alerts",
+      "finalUrl": "http://localhost:3013/soc/alerts",
+      "pathname": "/soc/alerts",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"734jryd0tjx4\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Security Alerts"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Security Alerts"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/alerts/page-fd0a53e156faaf46.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 25820,
+      "textWordCount": 63,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/soc/history",
+      "finalUrl": "http://localhost:3013/soc/history",
+      "pathname": "/soc/history",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"whwtip3xbiixg\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Scan History"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Scan History"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/7398-f803636476b069ea.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/history/page-568663aeede6dc5c.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 24536,
+      "textWordCount": 66,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/soc/extension",
+      "finalUrl": "http://localhost:3013/soc/extension",
+      "pathname": "/soc/extension",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"12t79r34insl4o\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Extension Monitor"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Extension Monitor"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/api/download-extension",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/extension/page-59422cb0d256d820.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 27388,
+      "textWordCount": 79,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/soc/settings",
+      "finalUrl": "http://localhost:3013/soc/settings",
+      "pathname": "/soc/settings",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"c4jnhnl7lrkqq\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Settings"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Settings"
+        },
+        {
+          "level": 2,
+          "text": "Detection Sensitivity"
+        },
+        {
+          "level": 2,
+          "text": "API Configuration"
+        },
+        {
+          "level": 2,
+          "text": "Notifications"
+        },
+        {
+          "level": 2,
+          "text": "Data Management"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/settings/page-e039d5dc97fa7799.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 26888,
+      "textWordCount": 70,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/soc/intelligence",
+      "finalUrl": "http://localhost:3013/soc/intelligence",
+      "pathname": "/soc/intelligence",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"fn4rwzebazyyq\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Threat Intelligence"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Threat Intelligence"
+        },
+        {
+          "level": 2,
+          "text": "3-Tier Cascade Detection Pipeline"
+        },
+        {
+          "level": 2,
+          "text": "Detection Methods"
+        },
+        {
+          "level": 3,
+          "text": "Zero-Width Character Detection"
+        },
+        {
+          "level": 3,
+          "text": "Homoglyph Phishing Detection"
+        },
+        {
+          "level": 3,
+          "text": "Emoji Steganography Analysis"
+        },
+        {
+          "level": 3,
+          "text": "Image LSB Steganalysis"
+        },
+        {
+          "level": 3,
+          "text": "Structural Image Analysis"
+        },
+        {
+          "level": 3,
+          "text": "AI Semantic Analysis"
+        },
+        {
+          "level": 2,
+          "text": "Threat Taxonomy"
+        },
+        {
+          "level": 3,
+          "text": "Data Exfiltration"
+        },
+        {
+          "level": 3,
+          "text": "Phishing"
+        },
+        {
+          "level": 3,
+          "text": "LLM Attacks"
+        },
+        {
+          "level": 3,
+          "text": "Covert Communication"
+        },
+        {
+          "level": 2,
+          "text": "Ensemble Confidence Weights"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/intelligence/page-a35bc9d45c865d62.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 45365,
+      "textWordCount": 448,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 1,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 1,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 1,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 1,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/soc/scanner",
+      "finalUrl": "http://localhost:3013/soc/scanner",
+      "pathname": "/soc/scanner",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"y8z3wvqo8xn1c\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Forensic Scanner"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Forensic Scanner"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/109-9f6912a6261c248b.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/scanner/page-3728edc791a54063.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 29860,
+      "textWordCount": 80,
+      "keywordHits": {
+        "steganography detection": 0,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 1,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/soc",
+      "finalUrl": "http://localhost:3013/soc",
+      "pathname": "/soc",
+      "status": 200,
+      "isHtml": true,
+      "isSeoCandidate": true,
+      "redirectChain": [],
+      "headers": {
+        "cache-control": "s-maxage=31536000",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "etag": "\"fjqdovdfyry1\"",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js"
+      },
+      "title": "SENTINEL PRIME — SOC Dashboard",
+      "metaDescription": "Steganography Detection & Threat Intelligence Platform",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [
+        "SENTINEL PRIME",
+        "Threat Operations Center"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "SENTINEL PRIME"
+        },
+        {
+          "level": 1,
+          "text": "Threat Operations Center"
+        }
+      ],
+      "links": [
+        {
+          "href": "http://localhost:3013/soc",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/intelligence",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/alerts",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/extension",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/settings",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/scanner",
+          "anchorText": "",
+          "rel": ""
+        },
+        {
+          "href": "http://localhost:3013/soc/history",
+          "anchorText": "",
+          "rel": ""
+        }
+      ],
+      "images": [],
+      "scripts": [
+        "http://localhost:3013/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+        "http://localhost:3013/_next/static/chunks/1255-de0c1abd22c7cccd.js",
+        "http://localhost:3013/_next/static/chunks/main-app-c3d293a2b2130866.js",
+        "http://localhost:3013/_next/static/chunks/4909-e481d3c62fc19854.js",
+        "http://localhost:3013/_next/static/chunks/2619-04bc32f026a0d946.js",
+        "http://localhost:3013/_next/static/chunks/4503-c4d6944350541f14.js",
+        "http://localhost:3013/_next/static/chunks/7105-a2859adc0a6f0b7e.js",
+        "http://localhost:3013/_next/static/chunks/85-7c6aecf94473f44e.js",
+        "http://localhost:3013/_next/static/chunks/5752-0b701a0398c321c7.js",
+        "http://localhost:3013/_next/static/chunks/app/layout-031d077baeccdb51.js",
+        "http://localhost:3013/_next/static/chunks/4085-7bca4980d53c55cb.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/layout-3208008c3fb701e4.js",
+        "http://localhost:3013/_next/static/chunks/7327-ad22385bd5e62ba2.js",
+        "http://localhost:3013/_next/static/chunks/7398-f803636476b069ea.js",
+        "http://localhost:3013/_next/static/chunks/app/soc/page-d964b86d5f65e883.js",
+        "http://localhost:3013/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "http://localhost:3013/_next/static/chunks/webpack-bda6c23e65d5e64d.js"
+      ],
+      "htmlBytes": 36226,
+      "textWordCount": 118,
+      "keywordHits": {
+        "steganography detection": 1,
+        "zero-width character detection": 0,
+        "homoglyph attack detection": 0,
+        "unicode security analysis": 0,
+        "emoji steganography": 0,
+        "cybersecurity ai tools": 0
+      },
+      "lsiHits": {
+        "invisible unicode": 0,
+        "unicode phishing": 0,
+        "zero width characters": 0,
+        "least significant bit steganography": 0,
+        "threat intelligence": 0,
+        "security operations center": 0,
+        "forensic analysis": 0,
+        "payload detection": 0,
+        "ai threat detection": 0
+      }
+    },
+    {
+      "url": "http://localhost:3013/api/download-extension",
+      "finalUrl": "http://localhost:3013/api/download-extension",
+      "pathname": "/api/download-extension",
+      "status": 200,
+      "isHtml": false,
+      "isSeoCandidate": false,
+      "redirectChain": [],
+      "headers": {
+        "connection": "keep-alive",
+        "content-disposition": "attachment; filename=\"sentinel-prime-extension.zip\"",
+        "content-type": "application/zip",
+        "date": "Tue, 28 Apr 2026 15:03:12 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+      },
+      "title": "",
+      "metaDescription": "",
+      "metaRobots": "",
+      "canonical": "",
+      "h1": [],
+      "headings": [],
+      "links": [],
+      "images": [],
+      "scripts": [],
+      "htmlBytes": 0,
+      "textWordCount": 0,
+      "keywordHits": {},
+      "lsiHits": {}
+    }
+  ],
+  "seoPageCount": 12,
+  "scores": {
+    "technical": 20,
+    "content": 16,
+    "performance": 34,
+    "overall": 22
+  }
+}

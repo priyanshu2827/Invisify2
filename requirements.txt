@@ -1,0 +1,27 @@
+fastapi>=0.110.0
+uvicorn>=0.29.0
+torch>=2.2.0
+torchvision>=0.17.0
+transformers>=4.38.0
+numpy>=1.26.0
+scipy>=1.12.0
+pillow>=10.2.0
+python-multipart>=0.0.9
+
+# --- Invisify2 Deep Learning Improvements ---
+# Feature 1: SSIM/MS-SSIM loss for perceptual quality
+pytorch-msssim>=1.0.0
+# Feature 2: Hyperparameter optimization
+optuna>=3.5.0
+# Feature 3: Learned perceptual similarity
+lpips>=0.1.4
+# Feature 4: Image quality metrics & robustness testing
+scikit-image>=0.22.0
+# Feature 5: Advanced augmentation
+albumentations>=1.4.0
+# Feature 6: Image hashing / data utilities
+imagehash>=4.3.1
+
+# --- Aletheia Steganalysis Integration ---
+opencv-python>=4.9.0
+matplotlib>=3.8.0
